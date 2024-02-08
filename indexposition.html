@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Position</title>
-</head>
-<body>
+    <style>
+      .box {
+        border: 2px dotted purple;
+        width: 200px;
+      }
+      
+    </style>
+  </head>
+  <body>
     <h3>CSS Positions</h3>
     <ol>
-        <!-- Flow Related -->
-        <li>Static</li>
-        <li>Relative</li>
-        <li>Absolute</li>
-        <!-- Scroll Related -->
-        <li>Fixed</li>
-        <li>Sticky</li>
+      <!-- Flow Related -->
+      <li>Static</li>
+      <li>Relative: <small>Current relative e koto tuku change hobe & will not live the current spot</small></li>
+      <li>Absolute: will lose it's own position and will move based on the root</li>
+      <!-- Scroll Related -->
+      <li>Fixed</li>
+      <li>Sticky</li>
     </ol>
-    
-</body>
+    <div class="swim-container">
+      <div class="box"><img src="./images/Rectangle 3.png" alt="" /></div>
+      <div class="box"><img src="./images/Rectangle 4.png" alt="" /></div>
+      <div class="box"><img src="./images/Rectangle 5.png" alt="" /></div>
+    </div>
+  </body>
 </html>
